@@ -80,6 +80,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _reactSelect = __webpack_require__(111);
 
+	var _reactSelect2 = _interopRequireDefault(_reactSelect);
+
 	__webpack_require__(90);
 
 	var MultiSelect = (function (_React$Component) {
@@ -121,7 +123,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return { value: option.key, label: label };
 	      });
 
-	      return _react2['default'].createElement(_reactSelect.Creatable, { multi: true, disabled: disabled,
+	      return _react2['default'].createElement(_reactSelect2['default'], { multi: true, disabled: disabled,
 	        value: selectedItems,
 	        placeholder: placeholder,
 	        options: options,

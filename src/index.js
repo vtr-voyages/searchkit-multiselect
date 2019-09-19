@@ -1,5 +1,5 @@
 import React from 'react'
-import { Creatable } from 'react-select';
+import Select from 'react-select';
 import 'react-select/dist/react-select.css';
 
 export default class MultiSelect extends React.Component {
@@ -23,7 +23,7 @@ export default class MultiSelect extends React.Component {
     })
 
     return (
-      <Creatable multi disabled={disabled}
+      <Select multi disabled={disabled}
         value={selectedItems}
         placeholder={placeholder}
         options={options}
